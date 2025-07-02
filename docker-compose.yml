@@ -37,7 +37,8 @@ services:
       WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD}
       WORDPRESS_DB_NAME: ${MYSQL_DATABASE}
     volumes:
-      - wp_data:/var/www/html
+      - ./wp_data:/var/www/html
+      - ./theme/porto:/var/www/html/wp-content/themes/porto:ro
     networks: [appnet]
 
   nginx:

@@ -33,6 +33,7 @@ A clean and portable development environment using Docker Compose:
 ```
 
 4. Visit http://localhost:8000 and complete the WordPress setup wizard.
+5. visit http://wordpress.ir/wp-admin/
 
 ```bash
     lamp‑wordpress/

@@ -28,6 +28,7 @@ A clean and portable development environment using Docker Compose:
 3. Launch the stack:
 
 ```bash
+    docker network create appnet
     docker-compose up -d
 ```
 
